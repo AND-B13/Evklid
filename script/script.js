@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+  // lazyload
+
+  lazyload();
+
   // header-burger
 
   const header = document.querySelector('.header');
@@ -11,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   window.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
-      header.classList.remove('open')
+      header.classList.remove('open');
     }
   });
 
@@ -21,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.body.addEventListener('click', (e) => {
     if (e._isClickWithInMenu) return;
-    header.classList.remove('open')
+    header.classList.remove('open');
   });
 
   //header-search

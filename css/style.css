@@ -71,7 +71,6 @@ img {
   --color-hover: #FFB84D;
   --color-active: #E1670E;
 
-  --gap-header: 32px;
   --gap-about: 35px;
 }
 
@@ -147,6 +146,7 @@ img {
   position: relative;
   margin: 0 auto;
   margin-bottom: 48px;
+  max-width: 1920px;
   border-radius: 0px 0px 32px 32px;
   background-color: var(--color-light);
   box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
