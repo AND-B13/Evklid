@@ -167,6 +167,11 @@ img {
   margin-right: auto;
 }
 
+.header__img {
+  width: 224px;
+  height: 72px;
+}
+
 .header__logo:before {
   content: "";
   position: absolute;
@@ -953,6 +958,11 @@ img {
 .left-block__link-footer:focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 5px;
+}
+
+.link-footer__img {
+  width: 224px;
+  height: 72px;
 }
 
 .nav-footer__list-footer {
